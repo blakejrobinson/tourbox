@@ -1,0 +1,34 @@
+{
+  "name": "@brso/tourbox",
+  "version": "1.0.1",
+  "description": "Native Node.js addon for TourBox hardware control with raw protocol access and event-driven API",
+  "main": "index.js",
+  "gypfile": true,
+  "scripts": {
+    "install": "node-gyp rebuild",
+    "build": "node-gyp build",
+    "clean": "node-gyp clean",
+    "test": "node test.js",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": ["tourbox", "hardware", "controller", "native", "addon", "midi-controller", "daw", "fl-studio"],
+  "author": "Blake Robinson <code@blakerobinson.co.uk>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blakerobinson/tourbox-native.git"
+  },
+  "bugs": {
+    "url": "https://github.com/blakerobinson/tourbox-native/issues"
+  },
+  "homepage": "https://github.com/blakerobinson/tourbox-native#readme",
+  "dependencies": {
+    "node-addon-api": "^7.0.0"
+  },
+  "devDependencies": {
+    "node-gyp": "^10.0.0"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}

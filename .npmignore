@@ -1,0 +1,27 @@
+# Build artifacts (exclude intermediate files, keep Release)
+build/Debug/
+build/deps/
+build/obj/
+build/*.target.mk
+build/Makefile
+build/gyp-*
+*.tgz
+*.log
+
+# Development files
+test.js
+*.gyp.json
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Node.js
+node_modules/
+npm-debug.log*
