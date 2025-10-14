@@ -23,17 +23,10 @@ A native Node.js addon for receiving input from TourBox devices. This addon prov
 ### Install Dependencies
 
 ```bash
-cd nodejsmodule
-npm install
+npm install @brso/tourbox
 ```
 
 This will automatically build the native addon using node-gyp.
-
-### Manual Build (if needed)
-
-```bash
-npm run build
-```
 
 ## Quick Start
 
